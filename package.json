@@ -1,0 +1,22 @@
+{
+  "name": "hive5",
+  "version": "0.0.1",
+  "description": "Hive5 node.js module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glowlabs/hive5.git"
+  },
+  "keywords": [
+    "hive5"
+  ],
+  "author": "Josh Ferguson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glowlabs/hive5/issues"
+  },
+  "homepage": "https://github.com/glowlabs/hive5#readme"
+}
