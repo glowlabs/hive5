@@ -9,7 +9,8 @@ Easily send data to your Hive5.io account
 
 ## Usage
 
-`var hive5 = require('hive5');
+```
+var hive5 = require('hive5');
 
 //create a valid JSON object. Note: only use simple value pairs such as {temperature: 85, humidity: 59}. Nesting/multiple values per item is not allowed.
 var jsonData = {
@@ -26,7 +27,7 @@ hive5.sendData(deviceID, jsonData)
 hive5.sendData(deviceID, jsonData, function(results) {
   console.log('Hive5 Results:', results);
 });
-`
+```
 
 ## More information
 
